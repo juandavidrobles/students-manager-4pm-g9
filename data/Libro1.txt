@@ -1,0 +1,6 @@
+nombre	apellido	documento	sex
+Andrea	Saenz	123451	f
+Paula	Blanco	123452	f
+Maria	Martinez	123453	f
+Antonio	Donado	123454	m
+Sebastian	Perez	123455	m

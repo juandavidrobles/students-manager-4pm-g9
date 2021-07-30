@@ -1,0 +1,86 @@
+<Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="6" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="62.400000000000006" ss:DefaultRowHeight="14.4">
+  <Row>
+    <Cell>
+      <Data ss:Type="String">nombre</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="String">apellido</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="String">documento</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="String">sex</Data>
+    </Cell>
+  </Row>
+  <Row>
+    <Cell>
+      <Data ss:Type="String">Andrea</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="String">Saenz</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="Number">123451</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="String">f</Data>
+    </Cell>
+  </Row>
+  <Row>
+    <Cell>
+      <Data ss:Type="String">Paula</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="String">Blanco</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="Number">123452</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="String">f</Data>
+    </Cell>
+  </Row>
+  <Row>
+    <Cell>
+      <Data ss:Type="String">Maria</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="String">Martinez</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="Number">123453</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="String">f</Data>
+    </Cell>
+  </Row>
+  <Row>
+    <Cell>
+      <Data ss:Type="String">Antonio</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="String">Donado</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="Number">123454</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="String">m</Data>
+    </Cell>
+  </Row>
+  <Row>
+    <Cell>
+      <Data ss:Type="String">Sebastian</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="String">Perez</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="Number">123455</Data>
+    </Cell>
+    <Cell>
+      <Data ss:Type="String">m</Data>
+    </Cell>
+  </Row>
+</Table>
