@@ -1,3 +1,5 @@
+import json
+
 def mostrar_menu_y_obtener_seleccion():
   print("\n")
   print("                     Menú principal")
@@ -34,3 +36,15 @@ def buscar_estudiante_por_documento(documento_a_buscar, estudiantes):
   for estudiante in estudiantes:
     if (estudiante['documento'] == documento_a_buscar):
       return estudiante
+
+def cargar_estudiantes() -> list:
+  file = open('./data/data.json', 'r')
+  file_content = file.read()
+  file.close()
+  estudiantes = json.loads(file_content)
+  return estudiantes
+
+def actualizar_data_estudiantes(estudiantes: list):
+  file = open('./data/data.json', 'w')
+  file.write(json.dumps(estudiantes))
+  file.close()

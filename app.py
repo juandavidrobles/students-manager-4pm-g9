@@ -1,37 +1,6 @@
 import funciones
 
-estudiantes = [
-  {
-    'nombre': 'Andrea',
-    'apellido': 'Saenz',
-    'documento': '123451',
-    'sex': 'f'
-  },
-  {
-    'nombre': 'Paula',
-    'apellido': 'Blanco',
-    'documento': '123452',
-    'sex': 'f'
-  },
-  {
-    'nombre': 'Maria',
-    'apellido': 'Martinez',
-    'documento': '123453',
-    'sex': 'f'
-  },
-  {
-    'nombre': 'Antonio',
-    'apellido': 'Donado',
-    'documento': '123454',
-    'sex': 'm'
-  },
-  {
-    'nombre': 'Sebastian',
-    'apellido': 'Perez',
-    'documento': '123455',
-    'sex': 'm'
-  },
-]
+estudiantes = funciones.cargar_estudiantes()
 
 while True:
 
@@ -43,6 +12,7 @@ while True:
   elif seleccion == "2":
     estudiante = funciones.crear_estudiante()
     estudiantes.append(estudiante)
+    funciones.actualizar_data_estudiantes(estudiantes)
     print("Estudiante añadido exitosamente.")
 
   elif seleccion == "3":
@@ -64,6 +34,7 @@ while True:
         respuesta = input("¿Este es el usuario que desea eliminar? (y/n)")
         if respuesta == "y":
           estudiantes.remove(estudianteAEliminar)
+          funciones.actualizar_data_estudiantes(estudiantes)
           print("Estudiante eliminado con éxito.")
           # break
   elif seleccion == '5':
